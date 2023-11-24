@@ -1,0 +1,19 @@
+.bestseller{
+    .bet-tile{
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        .lin{
+            width: 200px;
+            height: 2px;
+            background-color: rgb(136, 136, 136)
+        }
+        h2{
+            margin: 20px;
+            font-weight: 500;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-bottom: 5px;
+            
+        }
+    }
+}

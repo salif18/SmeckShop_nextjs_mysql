@@ -1,0 +1,24 @@
+.navbaradmin{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content:right;
+    background-color: #fff;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            list-style: none;
+            margin-right: 30px;
+            font-size: 1em;
+            .link{
+                font-family: 'Roboto';
+                text-decoration: none;
+                color: #555;
+                
+            }
+        }
+    }
+}

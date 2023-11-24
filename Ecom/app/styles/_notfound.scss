@@ -1,0 +1,19 @@
+.notfound{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .error{
+        h2{
+            font-size: 40px;
+            font-family: 'Roboto';
+            color: #2bc97a;
+        }
+    h1{
+        font-family: Open sans ;
+        font-size: 35px;
+        color: rgb(88, 88, 88);
+    }
+}
+}

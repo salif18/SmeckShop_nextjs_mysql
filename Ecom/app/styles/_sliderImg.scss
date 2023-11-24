@@ -1,0 +1,17 @@
+.container-swiper{
+    height: 90vh;
+    //background-color: adjust-color(#ffffffa8);
+    display: flex;
+    align-items: center;
+    .swiper{
+        width: 90%;
+        height: 70%;
+        border-radius: 20px;
+    }
+    .swiper-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        //background-color: #ffffffa8;
+    }
+}

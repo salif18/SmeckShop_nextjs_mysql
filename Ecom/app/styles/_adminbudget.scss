@@ -1,0 +1,17 @@
+.budget{
+    width: 400px;
+    min-height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #e6e6e6;
+    margin: 20px;
+    h2{
+        font-family: 'Roboto';
+        font-size: 1em;
+    }
+    p{
+        font-family: 'Roboto';
+        font-size: 1em;
+    }
+}

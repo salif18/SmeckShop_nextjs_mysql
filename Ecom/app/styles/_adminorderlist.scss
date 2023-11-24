@@ -1,0 +1,68 @@
+.order-list{
+    margin: 50px;
+    background-color: #fff;
+    padding: 15px;
+    h2{
+        font-family: Open sans;
+        font-size: 20px;
+    }
+    table{
+        width: 900px;
+        box-shadow: 1px 1px 1px 1px #f6f6f6;
+        border: 1px solid #555;
+        h2{
+            text-align: center;
+        }
+        thead{
+            border: 1px solid #e0e0e0;
+            th{
+                border: 1px solid #e0e0e0;
+                padding-left: 20px; 
+                font-family: Open sans;
+                font-size: 1em;
+                width: 120px;
+            }
+        }
+        tbody{
+            td{
+                border: 1px solid #e0e0e0;
+                padding-left: 20px; 
+                font-family: Open sans;
+                font-size: 1em;
+                width: 120px;
+                .gbtn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+               .btn-livre{
+                    width: 60px;
+                    height: 25px;
+                    font-family: 'Roboto';
+                    font-size: 0.8em;
+                    cursor: pointer;
+                    border: none;
+                    background: rgb(7, 241, 23);
+                    color: #fff;
+               }
+               .btn-annul{
+                    width: 60px;
+                    height: 25px;
+                    font-family: 'Roboto';
+                    font-size: 0.8em;
+                    cursor: pointer;
+                    border: none;
+                    background-color: rgb(250, 48, 62);
+                    color: #fff;
+                } 
+                .btn-view{
+                    width:50px ;
+                    height: 25px;
+                    cursor: pointer;
+                    border: none;
+                    background: #18e8;
+                }
+          }
+        }
+    }
+}

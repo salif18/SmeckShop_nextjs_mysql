@@ -1,0 +1,75 @@
+.braner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f1eb;
+    .h2{
+        position: relative;
+        font-size: 30px;
+        bottom: 200px;
+        font-family: Open sans;
+        font-weight: 300;
+        .span-animate{
+            font-size: 50px;
+            color: rgb(9, 219, 90);
+            animation: zoomIn 2s infinite alternate;
+            transform-origin: center;
+        }
+    }
+    .slog{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-family: Roboto;
+            font-size: 40px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: rgb(9, 245, 99);
+        }
+        p{
+            font-family: Open sans ;
+            font-size: 20px;
+            text-transform: uppercase;
+
+        }
+        .btn{
+            width: 200px;
+            height: 50px;
+            border: none;
+            background-color: rgb(14, 226, 25);
+            border-radius: 20px;
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 5px 5px 5px rgb(9, 245, 99);
+            &:hover{
+                background-color:rgb(4, 255, 16) ;
+                box-shadow: 5px 5px 5px rgb(9, 219, 90);
+            }
+            .lien-btn{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+    .img-braner{
+        Image{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+   
+}
+ @keyframes zoomIn {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.2);
+        }
+      }

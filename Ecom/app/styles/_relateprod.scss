@@ -1,0 +1,13 @@
+.relat-card{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin: 10px;
+    figure{
+        width: 80px;
+        height: 80px;
+        img{
+            object-fit:contain;
+        }
+    }
+}

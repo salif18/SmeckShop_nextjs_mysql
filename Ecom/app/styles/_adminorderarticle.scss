@@ -1,0 +1,17 @@
+.orderarticle{
+    width: 400px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    border-bottom:1px solid #dddcdccc;
+    background-color: #fff;
+    h2{
+        font-size: 1em;
+        font-family: Open sans;
+    }
+    p{
+        font-size: 1em;
+        font-family: Open sans;
+    }
+}

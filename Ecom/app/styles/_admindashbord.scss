@@ -1,0 +1,18 @@
+.dashbord{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    h2{
+        margin: 20px;
+        font-family: Open sans;
+        font-size: 1em;
+        color: #555;
+        text-transform: uppercase;
+    }
+    .widget{
+        display: flex;
+        align-items: center;
+    }
+    
+}

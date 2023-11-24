@@ -1,0 +1,15 @@
+.productlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 20px;
+    //background-color: #FFF;
+    .no-article{
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 300;
+        
+    }
+}

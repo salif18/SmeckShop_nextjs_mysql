@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    height: 15vh;
+    background: #0d0f1a;
+    display: flex;
+    align-items: center;
+    
+    .resau-sociaux{
+        margin: 20px;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            font-size: 25px;
+            color: #fff;
+            cursor: pointer;
+            margin: 10px;
+            &:hover{
+                color: #ff8d21;
+            }
+        }
+    }
+  }
+  .contact{
+    margin: 20px;
+    .link{
+        text-decoration: none;
+        font-family: Open sans;
+        font-size: 1em;
+        color: #fff;
+    }
+  }
+  .spons{
+    display: flex;
+    h2{
+        font-size: 1em;
+        font-family: 'Roboto';
+        margin-right: 10px;
+    }
+  }
+}

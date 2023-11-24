@@ -1,0 +1,91 @@
+.header{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  h2{
+  font-family: 'Roboto';
+  font-size: 20px;
+ }
+ input{
+    width: 300px;
+    height: 40px;
+    font-family: 'Roboto';
+    border: 1px solid #ebebeb;
+    padding-left: 15px;
+    border-radius: 20px;
+    outline: none;
+ }
+ }
+.table{
+    width: 900px;
+    box-shadow: 1px 1px 1px 1px #cdcdcd;
+    background-color: #fff;
+    
+    thead{
+        border: 1px solid #aaa;
+        height: 40px;
+        th{
+            font-family: Open sans;
+            font-size: 1em;
+            border: 1px solid #aaa;
+            width: 150px;
+        }
+    }
+    tbody{
+        border: 1px solid #aaa;
+        td{
+            font-family: Open sans;
+            font-size: 0.8em;
+            border: 1px solid #aaa;
+            width: 150px;
+            height: 80px;
+            padding-left: 20px;
+           
+            img{
+                object-fit: contain;
+            }
+            
+            .actions{
+                display: flex;
+                align-items: center;
+                .link{
+                    text-decoration: none;
+                    width: 50px;
+                    height: 25px;
+                }
+                .btn-edit{
+                    background-color: teal;
+                    width: 50px;
+                    height: 25px;
+                    // border: 1px solid #ccc;
+                    border: none;
+                    font-size: 20px;
+                    color: #555;
+                    cursor: pointer;
+                }
+                .btn-del{
+                    width: 50px;
+                    height: 25px;
+                    background-color: #ff0505b7;
+                    // border: 1px solid #ccc;
+                    border: none;
+                    font-size: 20px;
+                    color: #555;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.nextprevious{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 900px;
+    display: flex;
+    justify-content: right;
+    .btn{
+        border: 1px solid #c6c6c6;
+        width: 35px;
+        height: 35px;
+    }
+}

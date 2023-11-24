@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= PT+Sans+Caption & family= Roboto+Slab:wght@700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Montserrat:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Montserrat:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500&family=Montserrat:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lato:wght@300&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans:wght@600&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Exo+2:wght@300&family=Langar&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,500;1,300&family=Open+Sans&family=Playfair+Display&display=swap');
+
+.App{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f6f6f6;
+    width: 100%;
+    min-height: 100vh;
+    color: #555659
+}
+
+@import './nav';
+@import './footer';
+@import './home';
+@import './newstell';
+@import './sliderImg';
+@import './cardImg';
+@import './braner';
+@import './newarrival';
+@import './bestseller';
+@import './promos';
+@import './address';
+@import './address-form';
+@import './login';
+@import './registre';
+@import './connexion';
+@import './productlist';
+@import './cardproduct';
+@import './products';
+@import './navcategorie';
+@import './details';
+@import './cardpanier';
+@import './panier';
+@import './tendance';
+@import './loading';
+@import './notfound';
+@import './singleprod';
+@import './about';
+@import './contacts';
+@import './formcontacter';
+@import './relateprod';
+@import './admindashbord';
+@import './adminaddprod';
+@import './adminformaddprod';
+@import './adminproducts';
+@import './adminarticles';
+@import './adminorderlist';
+@import './adminorders';
+@import './navbaradmin';
+@import './adminbudget';
+@import './admincategorie';
+@import './adminclientliste';
+@import './adminclients';
+@import './admindetailclient';
+@import './admindetailorder';
+@import './adminorderarticle';
+@import './admindetailsarticles';
+@import './reset';
+
+

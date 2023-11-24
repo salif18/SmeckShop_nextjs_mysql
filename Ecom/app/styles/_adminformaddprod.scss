@@ -1,0 +1,42 @@
+.form-add{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    .add-left,.add-rigth{
+        display: flex;
+        flex-direction: column;
+        label{
+            display: flex;
+            flex-direction: column;
+            input{
+                margin:10px;
+                width: 300px;
+                height: 40px;
+                outline: none;
+                padding-left: 15px;
+                font-family: 'Roboto';
+            }
+            
+        }
+        
+    }
+    .add-rigth{
+    select{
+        width: 320px;
+        height: 40px;
+        padding-left: 15px;
+        font-family: 'Roboto';
+        margin:10px;
+    }
+    .btn{
+        width: 320px;
+        height: 50px;
+        color: #fff;
+        font-family: Open sans;
+        background-color: teal;
+        border: none;
+        margin:10px;
+    }
+}
+}

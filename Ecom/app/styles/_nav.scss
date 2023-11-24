@@ -1,0 +1,93 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    // background-color: #fff;
+    box-shadow:1px 1px 1px #d4d4d4da ;
+    .logo{
+        margin: 20px;
+        padding: 10px;
+        h2{
+            font-family: 'Roboto';
+        }
+        .primary-span{
+            color:#06b8ff
+        }
+        .secondary-span{
+            color: #1edb73;
+        }}
+    .navlink{
+        text-transform: uppercase;
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        .lien{
+            text-decoration: none;
+            margin: 20px;
+            font-family:Open sans;
+            font-size: 0.9em;
+            font-weight: 600;
+            cursor: pointer;
+            color: #06b8ff;
+        }}
+
+        .group{
+           display: flex;
+           align-items: center;
+           .btn-log{
+            width: 120px;
+            border: none;
+            background-color: #fff;
+            font-size: 1em;
+            font-family: Open sans;
+            cursor: pointer;
+           }
+        }
+       
+    .linkconnect{
+        text-decoration: none;
+        font-size: 0.9em;
+        font-family: Open sans;
+        margin: 20px;
+        color: #000;
+    } 
+    .linkcart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        padding: 10px;
+        height: 7vh;
+        font-size: 0.8em;
+        font-family: Open sans;
+        width: 50px;
+        background: #FD5C01;
+        color: #fff;
+        border: none;
+        span{
+            position: relative;
+            top: -30px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000;
+            color: #fff;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+        }
+       .icon{
+        font-size: 30px;
+       }
+       
+    }   
+    
+}

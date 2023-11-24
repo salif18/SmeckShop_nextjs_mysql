@@ -1,0 +1,39 @@
+.products{
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+    .container{
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        .title-underline{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+    h2{
+        font-family: 'Roboto';
+        font-size: 1em;
+        margin: 20px;
+        text-transform: uppercase;
+        color: rgb(99, 99, 99);
+    }
+    div{
+        width: 400px;
+        height: 2px;
+        background-color: rgb(179, 179, 179);
+    }
+   }
+}
+ .listproduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+ }
+    
+}
